@@ -1,0 +1,130 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* TOPO */
+  .topo {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .container-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  .logo-container .logo {
+    max-width: 160px;
+  }
+  
+  .info-contato {
+    flex: 1;
+    min-width: 220px;
+    font-size: 0.95em;
+  }
+  
+  .btn-agendar a {
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  
+  /* FRASE DE IMPACTO */
+  .impacto {
+    text-align: center;
+    padding: 40px 20px 30px;
+    background-color: #f9f9f9;
+  }
+  
+  .impacto h1 {
+    color: #b71c1c;
+    font-size: 1.8em;
+  }
+  
+  /* SEÇÕES */
+  section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  section h2 {
+    color: #b71c1c;
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  section ul li {
+    margin: 10px 0;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    transition: all 0.2s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .blog .card {
+    text-align: center;
+  }
+  
+  .agendamento a.whatsapp-btn {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* RODAPÉ */
+  footer {
+    background-color: #b71c1c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+  }
